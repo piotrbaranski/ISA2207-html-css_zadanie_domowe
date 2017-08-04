@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+#container,
+#upper,
+#lower,
+.col-3-1,
+#col-4-2 {
+    background-color: darkblue;
+}
+#container {
+    width: 940px;
+    height: 490px;
+}
+#upper,
+.col-3-1,
+#col-4-2 {
+    height: 320px;
+}
+#lower {
+    margin-top:20px;
+}
+.col-3-1,
+#col-4-2,
+.square3,
+.square4,
+#rectangle_vertical,
+.rectangle_horizontal {
+    float: left;
+}
+.col-3-1,
+#col-4-2,
+.rectangle_horizontal {
+    width: 300px;
+}
+#col-4-2,
+#rectangle,
+.square3,
+.square4,
+#rectangle_vertical,
+#square1,
+#square2,
+.rectangle_horizontal {
+    background-color: gray;
+}
+#rectangle,
+.square3,
+.square4,
+#square1,
+#square2,
+.rectangle_horizontal,
+#lower {
+    height: 150px;
+}
+#col-4-2 {
+    margin: 0 20px 0 20px;
+}
+#rectangle,
+#square1 {
+    margin-bottom: 20px;
+}
+.square3,
+.square4,
+#square1,
+#square2,
+#rectangle_vertical {
+    width: 140px;
+}
+.square3,
+#rectangle_vertical,
+.rectangle_horizontal {
+    margin-right: 20px;
+}
+#rectangle_vertical {
+    height: 320px;
+}
+#square1,
+#square2 {
+    float: right;
+}
+.rectangle_horizontal {
+    position: relative;
+}
+#red_box,
+#red_box2 {
+    background-color: red;
+    position: absolute;
+}
+#red_box {
+    height: 100px;
+    width: 75px;
+    right: 0;
+}
+#red_box2 {
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
